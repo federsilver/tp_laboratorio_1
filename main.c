@@ -16,13 +16,13 @@ printf("Ingresa segundo numero: \n");
 scanf("%lf", &numero2);
 
     if (ope == '+') {
-        resultado = numero1 + numero2;
+        printf("Resultado: %f", numero1 + numero2);
     } else if (ope == '-') {
-        resultado = numero1 - numero2;
+        printf("Resultado: %f", numero1 - numero2);
     } else if (ope == '*') {
-        resultado = numero1 * numero2;
+        printf("Resultado: %f", numero1 * numero2);
     } else if (ope == '/') {
-        resultado = numero1 / numero2;
+        printf("Resultado: %f", numero1 / numero2);
     } else {
         printf("Error en el ingreso");
     }
